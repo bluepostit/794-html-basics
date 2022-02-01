@@ -1,0 +1,57 @@
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Merriweather', cursive;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.btn-purple {
+  background-color: #6b72e1;
+  color: white;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.btn-purple:hover {
+  background-color: green;
+}
+
+.container-white {
+  background-color: #ffffff;
+  border: solid 1px rgb(180,180,180);
+  border-radius: 4px;
+  padding: 20px;
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.social-links {
+  padding: 0;
+  list-style: none;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 30px;
+}
+
+#link-github {
+  color: black;
+  size: 100px;
+}
